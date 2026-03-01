@@ -1,0 +1,15 @@
+
+<!DOCTYPE html><html><head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<h1>Galeri Hewan</h1>
+<div class="gallery"><div class="item"><img src="images/ayam.jpg" onclick="openViewer('ayam.jpg')"><p>Ayam</p></div><div class="item"><img src="images/babi.jpg" onclick="openViewer('babi.jpg')"><p>Babi</p></div><div class="item"><img src="images/domba.jpg" onclick="openViewer('domba.jpg')"><p>Domba</p></div><div class="item"><img src="images/elang.jpg" onclick="openViewer('elang.jpg')"><p>Elang</p></div><div class="item"><img src="images/flamingo.jpg" onclick="openViewer('flamingo.jpg')"><p>Flamingo</p></div><div class="item"><img src="images/hiu.jpg" onclick="openViewer('hiu.jpg')"><p>Hiu</p></div><div class="item"><img src="images/ikan.jpg" onclick="openViewer('ikan.jpg')"><p>Ikan</p></div><div class="item"><img src="images/jerapah.jpg" onclick="openViewer('jerapah.jpg')"><p>Jerapah</p></div><div class="item"><img src="images/kura.jpg" onclick="openViewer('kura.jpg')"><p>Kura</p></div></div>
+<div id="viewer" class="viewer">
+<button class="close" onclick="closeViewer()">Tutup</button>
+<button class="prev" onclick="prevImg()">‹</button>
+<img id="viewImg">
+<button class="next" onclick="nextImg()">›</button>
+</div>
+<script src="script.js"></script>
+</body></html>
